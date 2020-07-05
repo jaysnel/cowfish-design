@@ -21,12 +21,6 @@
       <h1>Welcome to Crazy Good!</h1>
       </b-carousel-slide>
 
-      <!-- Slides with custom text -->
-      <b-carousel-slide 
-        img-src="../../assets/images/home/cowfishDL2.jpg">
-        <h1>“You, my friend, are an idiot.”</h1>
-      </b-carousel-slide>
-
       <!-- Slides with image only -->
       <b-carousel-slide img-src="../../assets/images/home/cowfishDL3.jpg">
         <h1>Are those chopsticks,

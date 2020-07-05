@@ -31,7 +31,8 @@ export default {
 .cities img {
     max-width: 100%;
     width: 200px;
-    border-radius: 50%;
-    margin: 5%;
+
+
+    margin-bottom: 15%;
 }
 </style>
