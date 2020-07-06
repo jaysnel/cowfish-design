@@ -41,13 +41,6 @@
             <br/>
             plain weird... but delicious.</h1>
       </b-carousel-slide>
-
-        <b-carousel-slide img-src="../../assets/images/home/cowfishDL6.jpg">
-            <h1>
-                Did you hear the one about the cow,
-                <br/>
-                fish and lamb who walked into a bar?</h1>
-        </b-carousel-slide>
     </b-carousel>
   </div>
 </template>

@@ -1,3 +1,11 @@
 :root {
     --main-red: #AC131C;
 }
+
+.social-icons-location {
+    margin-left: 0;
+}
+
+.social-icons-location i {
+    margin: 0 20px 15px 0;
+}
