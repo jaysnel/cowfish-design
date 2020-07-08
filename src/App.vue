@@ -5,6 +5,9 @@
       <router-link to="/our-story">Our Story</router-link> |
       <router-link to="/locations">Locations</router-link>
     </div>
+    <div id="order-online">
+      Order Online
+    </div>
     <router-view/>
   </div>
 </template>
@@ -20,14 +23,27 @@
 
 #nav {
   padding: 30px;
+  background: #000;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #fff;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#order-online {
+  background: #fff;
+  color: #000;
+  position: fixed;
+  top: 22px;
+  right: 15px;
+  width: 150px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
 }
 </style>
