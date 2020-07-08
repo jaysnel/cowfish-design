@@ -85,7 +85,6 @@
       font-size: 1.5rem !important;
     }
   }
-
   @media(min-width: 768px) {
     .carousel-caption img {
       max-width: 100%;
