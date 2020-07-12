@@ -1,15 +1,18 @@
 <template>
-  <div class="cities">
-      <div>
-          <img src="../../assets/images/home/charlotte.jpg" alt="">
-      </div>
-      <div>
-          <img src="../../assets/images/home/raleigh.jpg" alt="">
-      </div>
-      <div>
-          <img src="../../assets/images/home/orlando.jpg" alt="">
-      </div>
-  </div>
+<b-container>
+    <h1>Locations</h1>
+    <div class="cities">
+        <div>
+            <img src="../../assets/images/home/charlotte.jpg" alt="">
+        </div>
+        <div>
+            <img src="../../assets/images/home/raleigh.jpg" alt="">
+        </div>
+        <div>
+            <img src="../../assets/images/home/orlando.jpg" alt="">
+        </div>
+    </div>
+</b-container>
 </template>
 
 <script>

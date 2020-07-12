@@ -18,5 +18,6 @@ export default {
 .footer {
     background: var(--main-red);
     margin: 0;
+    padding: 0;
 }
 </style>

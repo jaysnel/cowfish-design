@@ -2,8 +2,11 @@
 <div class="home-container">
       <div class="home">
         <DL/>
-
-        <p>A kaleidoscope of ingredients that come together to craft one-of-a-kind fresh sushi and burger dishes to die for. Then they collide to form a crazy but delicious new food called “burgushi”. And a lovable, responsive wait staff, original pop art, and larger-than-life fish tanks –with actual cowfish—top it all off to make The Cowfish a crazy good experience.</p>
+        <div class="content-section-black">
+          <div>
+            <p>A kaleidoscope of ingredients that come together to craft one-of-a-kind fresh sushi and burger dishes to die for. Then they collide to form a crazy but delicious new food called “burgushi”. And a lovable, responsive wait staff, original pop art, and larger-than-life fish tanks –with actual cowfish—top it all off to make The Cowfish a crazy good experience.</p>
+          </div>
+        </div>
         <Feature1 />
 
         <p>
