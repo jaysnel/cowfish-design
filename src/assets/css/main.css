@@ -6,9 +6,13 @@
     width: 100%;
     background: #000;
     color: #fff;
-    height: 200px;
+    height: 100%;
     display: grid;
     align-items: center;
+}
+
+.content-header {
+    font-size: 2.5rem;
 }
 
 .social-icons-location {
@@ -27,7 +31,7 @@
 @media(min-width: 768px) {
     .content-section-black p {
         width: 50%;
-        margin: auto;
+        margin: 15px auto;
         padding: 35px 0;
         border-top: 2px solid #fff;
         border-bottom: 2px solid #fff;

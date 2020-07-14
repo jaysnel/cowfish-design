@@ -20,7 +20,7 @@
       >
       <div class="carousel-body-text">
         <img src="../../assets/images/cowfishlogo.png" alt="">
-        <h1>Welcome to Crazy Good!</h1>
+        <h1></h1>
       </div>
       </b-carousel-slide>
 
