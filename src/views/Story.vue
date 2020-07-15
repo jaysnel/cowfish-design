@@ -22,7 +22,7 @@
         <br/><br/>
         But the best part about The Cowfish? The people. From the kitchen to entrance, we hire people who sparkle. You know the type. They just seem to ooze optimism, and it’s genuine. You’re not exactly sure why, but you kinda’ want to hang out with ‘em. Yeah, we know every restaurant claims to focus on service.
         <br/><br/>
-        Come meet the Cowfish folks. The proof is in the experience.
+        <b>Come meet the Cowfish folks. The proof is in the experience.</b>
       </p>
 
       <div class="story-images">

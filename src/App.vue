@@ -1,5 +1,16 @@
 <template class="paper-bg">
   <div id="app">
+    
+    <div>
+      <Slide right id="mobile-nav">
+        <router-link to="/">Home</router-link>
+        <router-link to="/menus">Menus</router-link>
+        <router-link to="/our-story">Our Story</router-link>
+        <router-link to="/locations">Locations</router-link> 
+        <router-link to="/gallery">Gallery</router-link>
+    </Slide>
+    </div>
+
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/menus">Menus</router-link> |
@@ -19,10 +30,12 @@
 
 <script>
 import Footer from './views/Footer'
+import { Slide } from 'vue-burger-menu'
 
 export default {
   components: {
-    Footer
+    Footer,
+    Slide
   }
 }
 </script>
@@ -35,18 +48,43 @@ export default {
   color: #2c3e50;
 }
 
-#nav {
+#nav,
+#mobile-nav {
   padding: 30px;
   background: #000;
 }
 
-#nav a {
+#nav a,
+#mobile-nav a {
   font-weight: bold;
   color: #fff;
+  font-family: var(--content-font);
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.router-link-exact-active {
+  color: var(--main-red) !important;
+}
+
+#mobile-nav .router-link-exact-active {
+  color: var(--main-white) !important;
+}
+
+#mobile-nav .router-link-exact-active {
+  background: var(--main-red);
+}
+
+#mobile-nav a:hover {
+  color: var(--main-white);
+  background: var(--main-red);
+  text-decoration: none;
+}
+
+.bm-menu {
+  background: var(--main-black);
+}
+
+.bm-burger-bars {
+  background: #fff;
 }
 
 #order-online {
@@ -59,5 +97,17 @@ export default {
   padding: 5px;
   font-size: 1.2rem;
   border-radius: 10px;
+}
+
+@media(max-width: 768px) {
+  #nav {
+    display: none;
+  }
+}
+
+@media(min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
 }
 </style>

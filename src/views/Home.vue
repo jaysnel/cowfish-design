@@ -17,7 +17,7 @@
             <p>
               <span class="content-header">Welcome to Crazy Good!</span>
               <br/>
-              A kaleidoscope of ingredients that come together to craft one-of-a-kind fresh sushi and burger dishes to die for. Then they collide to form a crazy but delicious new food called “burgushi”. And a lovable, responsive wait staff, original pop art, and larger-than-life fish tanks –with actual cowfish—top it all off to make The Cowfish a crazy good experience.
+              A kaleidoscope of ingredients that come together to craft one-of-a-kind fresh sushi and burger dishes to die for. Then they collide to form a crazy but delicious new food called “burgushi”. And a lovable, responsive wait staff, original pop art, and larger-than-life fish tanks – <b>with actual cowfish</b> — top it all off to make The Cowfish a crazy good experience.
             </p>
         </div>
         <Locations />
@@ -31,7 +31,7 @@
             <br/>
             The Cowfish bar is really no joke. Yeah, it’s fun to sit there, eat your meal and watch the game on TV or get mesmerized by the big-honkin’ aquariums. But the drink menu is serious. Craft beers from local breweries; everything but ordinary cocktails and martinis; affordably delicious wines; premium sakes; spiked, hand-spun milkshakes.
             <br/>
-            Cheers!
+            <b>Cheers!</b>
           </p>
         </div>
       </div>
