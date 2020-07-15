@@ -8,11 +8,11 @@
       <div class="feature-section-content feature-section-2-content">
         <p>
          <span class="content-header">We double-burger-patty dare you.</span>
-         <br/>
+         <br/><br/>
           The Cowfish burgers are made from ½ pound of all-natural beef, turkey, lamb, or bison. And all our meats have been raised humanely—never spanked, only put in time-out—and never, ever given antibiotics or hormones.
-          <br/>
+          <br/><br/>
           These aren’t your drive-thru burgers, people. We double-dare you to try the Big Squeal, a half-pound beef burger topped with pulled pork, smoked gouda cheese, onion strings, bacon coleslaw, BBQ sauce, lettuce and pickles on a brioche bun.
-          <br/>
+          <br/><br/>
           <i>Holy cowfish! What a mouthful!</i>
         </p>
       </div>
@@ -25,9 +25,9 @@
       <div class="feature-section-content feature-section-1-content">
         <p>
           <span class="content-header">Is it a burger? Is it sushi?</span>
-         <br/>
+         <br/><br/>
           No, it’s Burgushi®, a cutting-edge fusion of sandwiches made with sushi stuff, and sushi crafted with burger stuff. Take the All-American Bacon Double CheeseBurgushi: seasoned all natural beef, yellow and white cheddar cheeses, applewood bacon, and red onion, wrapped in soy paper and potato strings then flash fried. Topped with ketchup, mustard, dill pickle and Roma tomato.
-          <br/>
+          <br/><br/>
           Odd idea. Fab taste.
         </p>
       </div>
@@ -107,6 +107,8 @@ export default {
     align-items: center;
     background: var(--feature-bg);
     color: var(--feature-text);
+    padding: 70px;
+    line-height: 40px;
   }
 }
 </style>
