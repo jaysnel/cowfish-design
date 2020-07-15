@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/menus">Menus</router-link> |
       <router-link to="/our-story">Our Story</router-link> |
-      <router-link to="/locations">Locations</router-link>
+      <router-link to="/locations">Locations</router-link> |
+      <router-link to="/gallery">Gallery</router-link>
     </div>
     <a href="https://ordering.chownow.com/order/5967/locations" target="_blank" rel="noopener noreferrer">
       <div id="order-online">

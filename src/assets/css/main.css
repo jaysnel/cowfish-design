@@ -7,7 +7,36 @@
     --feature-text: #fff;
     --home-content-bg: rgba(247, 202, 24, 1);
     --home-content-text: #000;
+    --header-font: 'Special Elite', cursive;
+    --content-font: 'PT Sans', sans-serif;
 }
+h1,
+h2,
+h3,
+.content-header {
+    font-family: var(--header-font);
+}
+h1 {
+    color: var(--main-red);
+    padding-top: 50px;
+}
+
+p,
+li {
+    font-family: var(--content-font);
+    font-size: 1.2rem;
+}
+
+.footer .tradmark-title {
+    font-family: var(--content-font);
+    font-size: 1rem;
+}
+#order-online {
+    font-family: var(--content-font);
+    font-size: 1.2rem;
+}
+
+
 
 .paper-bg {
     background: url('../images/paper-bg.jpg');

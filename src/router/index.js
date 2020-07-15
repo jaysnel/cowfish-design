@@ -24,6 +24,11 @@ Vue.use(VueRouter)
     path: '/locations',
     name: 'Locations',
     component: () => import('../views/Locations.vue')
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: () => import('../views/Gallery.vue')
   }
 ]
 
