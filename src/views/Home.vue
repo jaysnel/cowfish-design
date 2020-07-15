@@ -1,7 +1,18 @@
 <template>
 <div class="home-container">
       <div class="home">
-        <DL/>
+        <!-- hero image section -->
+        <div id="hero-image">
+          <div class="hero-content">
+            <img class="cowfish-logo" src="../assets/images/cowfishlogo.png" alt="">
+          </div>
+        </div>
+        <!-- end hero image section -->
+
+        <!-- dl section -->
+        <!-- <DL/> -->
+        <!-- end dl section -->
+
         <div class="content-section-black">
             <p>
               <span class="content-header">Welcome to Crazy Good!</span>
@@ -9,24 +20,11 @@
               A kaleidoscope of ingredients that come together to craft one-of-a-kind fresh sushi and burger dishes to die for. Then they collide to form a crazy but delicious new food called “burgushi”. And a lovable, responsive wait staff, original pop art, and larger-than-life fish tanks –with actual cowfish—top it all off to make The Cowfish a crazy good experience.
             </p>
         </div>
+        <Locations />
+        <!-- feature section -->
         <Feature1 />
-
-        <!-- <p>
-          The Cowfish burgers are made from ½ pound of all-natural beef, turkey, lamb, or bison. And all our meats have been raised humanely—never spanked, only put in time-out—and never, ever given antibiotics or hormones.
-          <br/>
-          These aren’t your drive-thru burgers, people. We double-dare you to try the Big Squeal, a half-pound beef burger topped with pulled pork, smoked gouda cheese, onion strings, bacon coleslaw, BBQ sauce, lettuce and pickles on a brioche bun.
-          <br/>
-          <i>Holy cowfish! What a mouthful!</i>
-          </p>
-
-        <p>
-          Is it a burger? Is it sushi?
-          <br/>
-          No, it’s Burgushi®, a cutting-edge fusion of sandwiches made with sushi stuff, and sushi crafted with burger stuff. Take the All-American Bacon Double CheeseBurgushi: seasoned all natural beef, yellow and white cheddar cheeses, applewood bacon, and red onion, wrapped in soy paper and potato strings then flash fried. Topped with ketchup, mustard, dill pickle and Roma tomato.
-          <br/>
-          Odd idea. Fab taste.
-        </p> -->
-
+        <!-- end feature section -->
+        
         <div class="content-section-black">
           <p>
             <span class="content-header">Think you're ready?</span>
@@ -36,26 +34,21 @@
             Cheers!
           </p>
         </div>
-
-        <Locations />
       </div>
-    <Footer />
   </div>
 </template>
 
 <script>
-import Footer from './Footer'
-import DL from './home/DL'
+// import DL from './home/DL'
 import Feature1 from './home/Feature1'
 import Locations from './home/Locations'
 
 export default {
   name: 'Home',
   components: {
-    DL,
+    // DL,
     Feature1,
-    Locations,
-    Footer
+    Locations
   }
 }
 </script>
@@ -63,5 +56,26 @@ export default {
 <style scoped>
   .home {
     margin: 0 5px;
+  }
+
+  #hero-image {
+    background: url("../assets/images/home/cowfishDLExtra2.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #hero-image .hero-content {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-content .cowfish-logo {
+    max-width: 100%;
   }
 </style>

@@ -1,6 +1,10 @@
 <template>
   <div class="footer">
-      <h1>Footer</h1>
+      <div class="social-section">
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+      <span class="tradmark-title">2020 The Cowfish Sushi Burger Bar&reg; | <a href="mailto:feedback@thecowfish.com" class="feedback-link">feedback@thecowfish.com</a></span>
   </div>
 </template>
 
@@ -16,8 +20,23 @@ export default {
 
 <style scoped>
 .footer {
-    background: var(--main-red);
+    background: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
+}
+
+.tradmark-title {
+  font-size: 1rem;
+}
+
+.social-section a {
+  font-size: 1.5rem;
+  margin: 0 20px;
+  color: #fff;
+}
+
+.feedback-link {
+  color: var(--main-yellow);
 }
 </style>

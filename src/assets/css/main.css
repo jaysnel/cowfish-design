@@ -1,11 +1,22 @@
 :root {
     --main-red: #AC131C;
+    --main-yellow: rgba(247, 202, 24, 1);
+    --main-black: #000;
+    --main-white: #fff;
+    --feature-bg: #000;
+    --feature-text: #fff;
+    --home-content-bg: rgba(247, 202, 24, 1);
+    --home-content-text: #000;
+}
+
+.paper-bg {
+    background: url('../images/paper-bg.jpg');
 }
 
 .content-section-black {
     width: 100%;
-    background: #000;
-    color: #fff;
+    background: var(--home-content-bg);
+    color: var(--home-content-text);
     height: 100%;
     display: grid;
     align-items: center;
@@ -33,8 +44,8 @@
         width: 50%;
         margin: 15px auto;
         padding: 35px 0;
-        border-top: 2px solid #fff;
-        border-bottom: 2px solid #fff;
+        border-top: 2px solid var(--home-content-text);
+        border-bottom: 2px solid var(--home-content-text);
     }
 }
 

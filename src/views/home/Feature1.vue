@@ -1,26 +1,36 @@
 <template>
-  <div class="feature-section">
-    <div>
-      <img src="../../assets/images/home/fish.png">
+  <div class="feature-section-outer-container">
+    <!-- <img src="../../assets/images/home/fish.png">
       <img src="../../assets/images/home/burger.png">
-      <p>
+      <img src="../../assets/images/home/sushi.png">
+      <img src="../../assets/images/home/wave.png"> -->
+    <div class="feature-section feature-section-2">
+      <div class="feature-section-content feature-section-2-content">
+        <p>
+         <span class="content-header">We double-burger-patty dare you.</span>
+         <br/>
           The Cowfish burgers are made from ½ pound of all-natural beef, turkey, lamb, or bison. And all our meats have been raised humanely—never spanked, only put in time-out—and never, ever given antibiotics or hormones.
           <br/>
           These aren’t your drive-thru burgers, people. We double-dare you to try the Big Squeal, a half-pound beef burger topped with pulled pork, smoked gouda cheese, onion strings, bacon coleslaw, BBQ sauce, lettuce and pickles on a brioche bun.
           <br/>
           <i>Holy cowfish! What a mouthful!</i>
-          </p>
+        </p>
+      </div>
+      <div class="feature-section-img feature-section-2-img"></div>
     </div>
-    <div>
-      <img src="../../assets/images/home/sushi.png">
-      <img src="../../assets/images/home/wave.png">
-      <p>
-          Is it a burger? Is it sushi?
-          <br/>
+
+
+    <div class="feature-section feature-section-1">
+      <div class="feature-section-img feature-section-1-img"></div>
+      <div class="feature-section-content feature-section-1-content">
+        <p>
+          <span class="content-header">Is it a burger? Is it sushi?</span>
+         <br/>
           No, it’s Burgushi®, a cutting-edge fusion of sandwiches made with sushi stuff, and sushi crafted with burger stuff. Take the All-American Bacon Double CheeseBurgushi: seasoned all natural beef, yellow and white cheddar cheeses, applewood bacon, and red onion, wrapped in soy paper and potato strings then flash fried. Topped with ketchup, mustard, dill pickle and Roma tomato.
           <br/>
           Odd idea. Fab taste.
         </p>
+      </div>
     </div>
   </div>
 </template>
@@ -36,20 +46,67 @@ export default {
 </script>
 
 <style scoped>
-.feature-section {
+.feature-section-outer-container {
+    height: 100%;
+}
+
+.feature-section-1-img {
+  background: url('../../assets/images/home/cowfishDL5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+
+.feature-section-2-img {
+  background: url('../../assets/images/home/cowfishDL4.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+
+@media(max-width: 768px) {
+  .feature-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      height: 60vh;
+  }
+
+  .feature-section-2 {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+  }
+  .feature-section-1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .feature-section-content  {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--feature-bg);
+    color: var(--feature-text);
+  }
 }
 
-.feature-section div {
-  border: 2px solid #000;
-  margin: 5px;
-}
 
-.feature-section img {
-    max-width: 100%;
-    width: 100px;
-    margin: auto;
-}
+@media(min-width: 768px) {
+  .feature-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      height: 90vh;
+  }
 
+  .feature-section-content  {
+    display: grid;
+    align-items: center;
+    background: var(--feature-bg);
+    color: var(--feature-text);
+  }
+}
 </style>

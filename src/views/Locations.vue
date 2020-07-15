@@ -1,5 +1,5 @@
 <template>
-  <div class="location-container">
+  <div class="paper-bg location-container">
     <!-- <div class="dl">
       <h1>Locations</h1>
     </div> -->
@@ -179,6 +179,10 @@ export default {
 </script>
 
 <style scoped>
+.paper-bg {
+    height: 100vh;
+}
+
 .dl {
   display: grid;
   align-items: center;

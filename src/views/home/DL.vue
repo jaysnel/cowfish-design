@@ -86,6 +86,7 @@
     }
   }
   @media(min-width: 768px) {
+
     .carousel-caption img {
       max-width: 100%;
     }

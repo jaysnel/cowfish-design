@@ -24,19 +24,14 @@
       <img class="crooked-image2" src="../assets/images/story/friend2.png" alt="">
       <img class="crooked-image3" src="../assets/images/story/friend3.png" alt="">
     </div>
-
-    <Footer />
   </div>
 </template>
 
 
 <script>
-import Footer from './Footer'
-
 export default {
   name: 'Story',
   components: {
-    Footer
   },
   data() {
       return {

@@ -1,17 +1,30 @@
-<template>
+<template class="paper-bg">
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/menus">Menus</router-link> |
       <router-link to="/our-story">Our Story</router-link> |
       <router-link to="/locations">Locations</router-link>
     </div>
-    <div id="order-online">
-      Order Online
-    </div>
+    <a href="https://ordering.chownow.com/order/5967/locations" target="_blank" rel="noopener noreferrer">
+      <div id="order-online">
+        Order Online
+      </div>
+    </a>
     <router-view/>
+    <Footer />
   </div>
 </template>
 
+<script>
+import Footer from './views/Footer'
+
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -36,10 +49,10 @@
 }
 
 #order-online {
-  background: #fff;
-  color: #000;
+  background: var(--main-red);
+  color: var(--main-white);
   position: fixed;
-  top: 22px;
+  bottom: 22px;
   right: 15px;
   width: 150px;
   padding: 5px;
