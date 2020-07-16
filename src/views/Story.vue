@@ -59,8 +59,6 @@ export default {
 
 .our-story-content {
   padding: 15px;
-  background: transparent;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .crooked-image1 {

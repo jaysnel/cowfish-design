@@ -8,6 +8,8 @@
         <router-link to="/our-story">Our Story</router-link>
         <router-link to="/locations">Locations</router-link> 
         <router-link to="/gallery">Gallery</router-link>
+        <router-link to="/gallery">Careers</router-link>
+        <router-link to="/contact">Contact</router-link>
     </Slide>
     </div>
 
@@ -16,7 +18,9 @@
       <router-link to="/menus">Menus</router-link> |
       <router-link to="/our-story">Our Story</router-link> |
       <router-link to="/locations">Locations</router-link> |
-      <router-link to="/gallery">Gallery</router-link>
+      <router-link to="/gallery">Gallery</router-link> |
+      <router-link to="/careers">Careers</router-link> |
+      <router-link to="/contact">Contact</router-link>
     </div>
     <a href="https://ordering.chownow.com/order/5967/locations" target="_blank" rel="noopener noreferrer">
       <div id="order-online">

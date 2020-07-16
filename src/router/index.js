@@ -29,6 +29,16 @@ Vue.use(VueRouter)
     path: '/gallery',
     name: 'Gallery',
     component: () => import('../views/Gallery.vue')
+  },
+  {
+    path: '/careers',
+    name: 'Careers',
+    component: () => import('../views/Careers.vue')
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: () => import('../views/Contact.vue')
   }
 ]
 

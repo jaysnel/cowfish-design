@@ -13,7 +13,7 @@
           <br/><br/>
           These aren’t your drive-thru burgers, people. We double-dare you to try the Big Squeal, a half-pound beef burger topped with pulled pork, smoked gouda cheese, onion strings, bacon coleslaw, BBQ sauce, lettuce and pickles on a brioche bun.
           <br/><br/>
-          <i>Holy cowfish! What a mouthful!</i>
+          <i><b>Holy cowfish! What a mouthful!</b></i>
         </p>
       </div>
       <div class="feature-section-img feature-section-2-img"></div>
@@ -28,7 +28,7 @@
          <br/><br/>
           No, it’s Burgushi®, a cutting-edge fusion of sandwiches made with sushi stuff, and sushi crafted with burger stuff. Take the All-American Bacon Double CheeseBurgushi: seasoned all natural beef, yellow and white cheddar cheeses, applewood bacon, and red onion, wrapped in soy paper and potato strings then flash fried. Topped with ketchup, mustard, dill pickle and Roma tomato.
           <br/><br/>
-          Odd idea. Fab taste.
+          <i><b>Odd idea. Fab taste.</b></i>
         </p>
       </div>
     </div>
