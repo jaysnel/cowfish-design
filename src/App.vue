@@ -4,7 +4,7 @@
     <div>
       <Slide right id="mobile-nav">
         <router-link to="/">Home</router-link>
-        <router-link to="/menus">Menus</router-link>
+        <router-link to="/menus">Menu</router-link>
         <router-link to="/our-story">Our Story</router-link>
         <router-link to="/locations">Locations</router-link> 
         <router-link to="/gallery">Gallery</router-link>
@@ -15,7 +15,7 @@
 
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/menus">Menus</router-link> |
+      <router-link to="/menus">Menu</router-link> |
       <router-link to="/our-story">Our Story</router-link> |
       <router-link to="/locations">Locations</router-link> |
       <router-link to="/gallery">Gallery</router-link> |
