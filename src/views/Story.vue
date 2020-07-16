@@ -75,7 +75,7 @@ export default {
 @media(min-width: 768px) {
   .our-story-content {
     width: 75%;
-    margin: 15px auto;
+    margin: auto;
   }
 }
 
