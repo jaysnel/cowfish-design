@@ -52,17 +52,17 @@
                 <h5>Salads</h5>
                 <ul class="inner-salad-items">
                     <li><b>Cobb Salad</b><br/>Grilled all-natural chicken, eggs, avocado, cheddar cheese, kalamata olives, cucumbers, bacon, cherry tomatoes and smoked blue cheese with choice of dressing
-                        <ul><br/><li>Small (feeds 10) - $65</li></ul>
+                        <ul><li>Small (feeds 10) - $65</li></ul>
                         <ul><li>Medium (feeds 15) - $90</li></ul>
                         <ul><li>Large (feeds 20) - $120</li></ul>
                     </li>
                     <li><b>Mixed Greens</b><br/>Cucumber, tomato and crisp wonton strips with choice of dressing
-                        <ul><br/><li>Small (feeds 10) - $30</li></ul>
+                        <ul><li>Small (feeds 10) - $30</li></ul>
                         <ul><li>Medium (feeds 15) - $40</li></ul>
                         <ul><li>Large (feeds 20) - $50</li></ul>
                     </li>
                     <li><b>Chinese Chicken Salad</b><br/>Grilled all-natural chicken, mixed greens, Asian slaw, snow peas, red peppers, cilantro, green onion and fresh tangerine with peanut ranch dressing
-                        <ul><br/><li>Small (feeds 10) - $55</li></ul>
+                        <ul><li>Small (feeds 10) - $55</li></ul>
                         <ul><li>Medium (feeds 15) - $80</li></ul>
                         <ul><li>Large (feeds 20) - $95</li></ul>				  		
                     </li>				  		
@@ -85,6 +85,11 @@ export default {
 </script>
 
 <style scoped>
+    ul {
+        margin: 10px;
+        padding: 0;
+    }
+
     .catering-body-content {
         padding: 15px;
     }
@@ -97,29 +102,36 @@ export default {
         list-style-type: none;
     }
 
-    .top-1 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 15px;
-
-        margin-bottom: 15px;
-    }
-
-    .inner-salad-items {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 15px;
-    }
-
     .inner-salad-items > li {
         margin: 15px auto;
-        margin: 0 auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    @media(max-width: 768px) {
+        .top-1 div {
+            margin: 10px auto;
+        }
     }
 
     @media(min-width: 768px) {
         .catering-body-content {
             width: 65%;
             margin: auto;
+        }
+
+        .top-1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 15px;
+
+            margin-bottom: 15px;
+        }
+
+        .inner-salad-items {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 15px;
         }
     }
 </style>
