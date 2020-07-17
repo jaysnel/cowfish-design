@@ -71,7 +71,7 @@ export default {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
-      height: 60vh;
+      height: 80vh;
   }
 
   .feature-section-2 {
@@ -108,7 +108,7 @@ export default {
     background: var(--feature-bg);
     color: var(--feature-text);
     padding: 70px;
-    line-height: 40px;
+    line-height: 30px;
   }
 }
 </style>

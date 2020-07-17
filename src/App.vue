@@ -5,10 +5,12 @@
       <Slide right id="mobile-nav">
         <router-link to="/">Home</router-link>
         <router-link to="/menus">Menu</router-link>
+        <router-link to="/catering">Catering</router-link>
         <router-link to="/our-story">Our Story</router-link>
-        <router-link to="/locations">Locations</router-link> 
+        <router-link to="/locations">Locations</router-link>
+        <router-link to="/news">News</router-link> 
         <router-link to="/gallery">Gallery</router-link>
-        <router-link to="/gallery">Careers</router-link>
+        <router-link to="/careers">Careers</router-link>
         <router-link to="/contact">Contact</router-link>
     </Slide>
     </div>
@@ -16,8 +18,10 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/menus">Menu</router-link> |
+      <router-link to="/catering">Catering</router-link> |
       <router-link to="/our-story">Our Story</router-link> |
       <router-link to="/locations">Locations</router-link> |
+      <router-link to="/news">News</router-link>  |
       <router-link to="/gallery">Gallery</router-link> |
       <router-link to="/careers">Careers</router-link> |
       <router-link to="/contact">Contact</router-link>
@@ -29,6 +33,7 @@
     </a>
     <router-view/>
     <Footer />
+    <!-- <a id="floatingButton"><i class="fas fa-angle-up"></i></a> -->
   </div>
 </template>
 
@@ -44,6 +49,7 @@ export default {
 }
 </script>
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -83,6 +89,10 @@ export default {
   text-decoration: none;
 }
 
+#mobile-nav .line-style {
+  height: 5%;
+}
+
 .bm-menu {
   background: var(--main-black);
 }
@@ -90,6 +100,41 @@ export default {
 .bm-burger-bars {
   background: #fff;
 }
+
+/*Back to top button*/
+/* #floatingButton {
+  display: inline-block;
+  background-color: rgba(172, 19, 28, 1);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#floatingButton i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+#floatingButton:hover {
+  cursor: pointer;
+}
+#floatingButton:active {
+  background-color: #555;
+}
+#floatingButton.show {
+  opacity: 1;
+  visibility: visible;
+} */
+
 
 #order-online {
   background: var(--main-red);

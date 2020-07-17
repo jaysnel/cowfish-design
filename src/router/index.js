@@ -39,6 +39,16 @@ Vue.use(VueRouter)
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
+  },
+  {
+    path: '/catering',
+    name: 'Catering',
+    component: () => import('../views/Catering.vue')
+  },
+  {
+    path: '/news',
+    name: 'News',
+    component: () => import('../views/News.vue')
   }
 ]
 

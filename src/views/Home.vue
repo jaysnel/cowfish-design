@@ -22,7 +22,7 @@
         </div>
         <Locations />
         <!-- feature section -->
-        <Feature1 />
+        <Feature1 id="feature-section" />
         <!-- end feature section -->
         
         <div class="content-section-black">

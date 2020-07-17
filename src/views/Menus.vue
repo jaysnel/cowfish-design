@@ -132,6 +132,17 @@ export default {
     width: 100px;
 }
 
+.food-gallery img {
+    max-width: 100%;
+}
+
+@media(max-width: 768px) {
+    .food-information {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 @media(min-width: 768px) {
     .menu-content {
         width: 60%;
@@ -149,8 +160,16 @@ export default {
         justify-items: center;
 
         max-width: 100%;
-        width: 85%;
+        width: 100%;
         margin: auto;
+    }
+}
+
+
+@media(max-width: 1024px) and (min-width: 768px) {
+    .food-information {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
     
