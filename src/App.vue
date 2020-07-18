@@ -58,7 +58,7 @@ export default {
   background: #000;
 }
 
-.mobile-nav-section-with-logo > div {
+.mobile-nav-section-with-logo > div img {
   max-width: 100%;
 }
 
