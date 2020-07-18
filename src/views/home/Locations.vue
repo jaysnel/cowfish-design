@@ -1,6 +1,5 @@
 <template>
 <b-container class="home-locations-section">
-    <!-- <h1>Menu</h1> -->
     <div class="cities">
         <div class="home-location charlottelocation">
             <div @click="goToMenu('charlotte')">
@@ -52,9 +51,7 @@ export default {
 }
 
 .home-location h2 {
-    /* background: rgba(255,255,255,.7); */
     background: rgba(172, 19, 28, .7);
-    /* background: rgba(0, 0, 0, .7); */
     width: 100%;
     color: #fff;
 }

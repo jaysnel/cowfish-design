@@ -1,9 +1,5 @@
 <template>
   <div class="feature-section-outer-container">
-    <!-- <img src="../../assets/images/home/fish.png">
-      <img src="../../assets/images/home/burger.png">
-      <img src="../../assets/images/home/sushi.png">
-      <img src="../../assets/images/home/wave.png"> -->
     <div class="feature-section feature-section-2">
       <div class="feature-section-content feature-section-2-content">
         <p>
@@ -18,8 +14,6 @@
       </div>
       <div class="feature-section-img feature-section-2-img"></div>
     </div>
-
-
     <div class="feature-section feature-section-1">
       <div class="feature-section-img feature-section-1-img"></div>
       <div class="feature-section-content feature-section-1-content">

@@ -1,7 +1,6 @@
 <template>
   <div class="paper-bg gallery-body">
       <h1>Gallery</h1>
-
       <b-carousel
         id="carousel-fade"
         :interval="6000"
@@ -11,37 +10,30 @@
         img-width="800"
         img-height="480"
         >
-
         <b-carousel-slide
         caption=""
         img-src="../assets/images/gallery/gallery1.jpg"
         ></b-carousel-slide>
-
         <b-carousel-slide
         caption=""
         img-src="../assets/images/gallery/gallery2.jpg"
         ></b-carousel-slide>
-
         <b-carousel-slide
         caption=""
         img-src="../assets/images/gallery/gallery3.jpg"
         ></b-carousel-slide>
-
         <b-carousel-slide
         caption=""
         img-src="../assets/images/gallery/gallery4.jpg"
         ></b-carousel-slide>
-
         <b-carousel-slide
         caption=""
         img-src="../assets/images/gallery/gallery5.jpg"
         ></b-carousel-slide>
-
         <b-carousel-slide
         caption=""
         img-src="../assets/images/gallery/gallery6.jpg"
         ></b-carousel-slide>
-
     </b-carousel>
     <br>
     <div class="gallery-image-individual">
@@ -52,8 +44,6 @@
         <img src="../assets/images/gallery/gallery5.jpg" alt="">
         <img src="../assets/images/gallery/gallery6.jpg" alt="">
     </div>
-
-
   </div>
 </template>
 
@@ -64,7 +54,6 @@ export default {
 </script>
 
 <style scoped>
-
 @media(max-width: 768px) {
     .gallery-image-individual img {
         max-width: 100%;

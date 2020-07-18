@@ -96,15 +96,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div class="food-gallery">
-            <img src="../assets/menus/food1.png">
-            <img src="../assets/menus/food2.png">
-            <img src="../assets/menus/food3.png">
-            <img src="../assets/menus/food4.png">
-            <img src="../assets/menus/food5.png">
-            <img src="../assets/menus/food6.png">
-        </div> -->
   </div>
 </template>
 

@@ -1,7 +1,6 @@
 <template>
   <div class="paper-bg">
       <div class="career-body">
-        
         <h1>Careers</h1>
         <h2>FACT: Although the adults are generally quite square in shape, young cowfish* are more rounded and often exhibit brighter colors.</h2>
         <p>
@@ -16,15 +15,7 @@
       <img class="career-image-main" src="../assets/images/careers/cowfish-fish.jpg" alt="">
   </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
 <style scoped>
-
     .career-body {
         padding: 15px;
     }

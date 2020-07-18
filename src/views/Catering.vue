@@ -16,8 +16,6 @@
           <br>
           <br>
       </div>
-
-
       <b-tabs class="catering-items" content-class="mt-3" active-nav-item-class="font-weight-bold catering-item-tabs" justified>
         <b-tab title="Sushi" :title-link-class="'black-text'"  active>
             <div class="text-center catering-items">
@@ -98,76 +96,7 @@
             </div>
         </b-tab>
     </b-tabs>
-
-
-  
-        <!--<div class="text-center catering-items">
-            <div class="top-1">
-                <div class="transparent-bg catering-sushi">
-                    <br/>
-                    <h5>Sushi Platters</h5>
-                    <hr>
-                    <ul>
-                        <li><b>Small</b><br/>Fiery Dragon Roll, Georgia Roll and Firecracker Roll, 2 California Rolls and 4 Nigiri (feeds up to 8 people) - $69</li><br/>
-                        <li><b>Medium</b><br/>Boss roll, Doug’s Filet, Mark’s Roll, Georgia Roll, 2 California Rolls, Tuna Hosomaki and 6 Nigiri (feeds up to 12 people) - $99</li><br/>
-                        <li><b>Large</b><br/>Boss Roll, Doug’s Filet, Mark’s Roll, Georgia Roll, Firecracker Roll, 2 California Rolls, Tuna Hosomaki and 12 Nigiri (feeds up to 18 people) - $129</li>				  		
-                    </ul>
-                </div>
-                        
-                <div class="transparent-bg catering-burger">
-                    <br/>
-                    <h5>Mini Burger Platters (served with condiments and American cheese*)</h5>
-                    <hr>
-                    <ul>
-                        <li><b>Small</b><br/>20 minis (feeds 10) - $70</li><br/>
-                        <li><b>Medium</b><br/>30 minis (feeds 15) - $90</li><br/>
-                        <li><b>Large</b><br/>40 minis (feeds 20) - $120</li>				  		
-                    </ul>
-                    <small><b><i>*Additional toppings and specialty burgers available upon request (additional charges may apply)</i></b></small><br><br>
-                </div>
-                
-
-                <div class="transparent-bg catering-sides">
-                    <br/>
-                    <h5>Sides ($10 - feeds 3)</h5>
-                    <hr>
-                    <ul>
-                        <li>Bacon Cole Slaw</li>
-                        <li>Seaweed Salad</li>
-                        <li>Thai cucumbers</li>
-                        <li>Edamame</li>				  		
-                    </ul>	
-                </div>
-            </div>	
-                
-             <div class="transparent-bg catering-salad">
-                <br/>
-                <h5>Salads</h5>
-                <hr>
-                <ul class="inner-salad-items">
-                    <li><b>Cobb Salad</b><br/>Grilled all-natural chicken, eggs, avocado, cheddar cheese, kalamata olives, cucumbers, bacon, cherry tomatoes and smoked blue cheese with choice of dressing
-                        <ul><li>Small (feeds 10) - $65</li></ul>
-                        <ul><li>Medium (feeds 15) - $90</li></ul>
-                        <ul><li>Large (feeds 20) - $120</li></ul>
-                    </li>
-                    <li><b>Mixed Greens</b><br/>Cucumber, tomato and crisp wonton strips with choice of dressing
-                        <ul><li>Small (feeds 10) - $30</li></ul>
-                        <ul><li>Medium (feeds 15) - $40</li></ul>
-                        <ul><li>Large (feeds 20) - $50</li></ul>
-                    </li>
-                    <li><b>Chinese Chicken Salad</b><br/>Grilled all-natural chicken, mixed greens, Asian slaw, snow peas, red peppers, cilantro, green onion and fresh tangerine with peanut ranch dressing
-                        <ul><li>Small (feeds 10) - $55</li></ul>
-                        <ul><li>Medium (feeds 15) - $80</li></ul>
-                        <ul><li>Large (feeds 20) - $95</li></ul>				  		
-                    </li>				  		
-                </ul>
-            </div>
-                        
-            
-            <br><br>
-            <b>To order, contact us at <a href='mailto:feedback@thecowfish.com'>feedback@thecowfish.com.</a></b>
-            </div> -->
-            <br>
+    <br>
     </div>
 				
   </div>

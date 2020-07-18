@@ -64,13 +64,14 @@ export default {
 .crooked-image1 {
   transform: rotate(1.5deg);
 }
+
 .crooked-image2 {
   transform: rotate(2deg);
 }
+
 .crooked-image3 {
   transform: rotate(-1deg);
 }
-
 
 @media(min-width: 768px) {
   .our-story-content {
@@ -78,5 +79,4 @@ export default {
     margin: auto;
   }
 }
-
 </style>

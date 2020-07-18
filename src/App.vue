@@ -1,7 +1,10 @@
 <template class="paper-bg">
   <div id="app">
     
-    <div>
+    <div class="mobile-nav-section-with-logo">
+      <div>
+        <img class="cowfish-logo" src="./assets/images/cowfishlogo.png" alt="">
+      </div>
       <Slide right id="mobile-nav">
         <router-link to="/">Home</router-link>
         <router-link to="/menus">Menu</router-link>
@@ -49,6 +52,11 @@ export default {
 }
 </script>
 <style>
+.mobile-nav-section-with-logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #000;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -155,7 +163,8 @@ export default {
 }
 
 @media(min-width: 768px) {
-  #mobile-nav {
+  #mobile-nav,
+  .mobile-nav-section-with-logo {
     display: none;
   }
 }

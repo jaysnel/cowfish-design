@@ -1,8 +1,5 @@
 <template>
   <div class="paper-bg location-container">
-    <!-- <div class="dl">
-      <h1>Locations</h1>
-    </div> -->
     <h1>Locations</h1>
     <div class="locations">
         <div>
@@ -75,7 +72,6 @@
                     </div>
                 </div>
             </b-modal>
-
             <!-- ///////////////////////////////////////////////
             RALEIGH LOCATION
             /////////////////////////////////////////////// -->

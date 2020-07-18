@@ -8,11 +8,6 @@
           </div>
         </div>
         <!-- end hero image section -->
-
-        <!-- dl section -->
-        <!-- <DL/> -->
-        <!-- end dl section -->
-
         <div class="content-section-black">
             <p>
               <span class="content-header">Welcome to Crazy Good!</span>
@@ -24,7 +19,6 @@
         <!-- feature section -->
         <Feature1 id="feature-section" />
         <!-- end feature section -->
-        
         <div class="content-section-black">
           <p>
             <span class="content-header">Think you're ready?</span>
@@ -46,7 +40,6 @@ import Locations from './home/Locations'
 export default {
   name: 'Home',
   components: {
-    // DL,
     Feature1,
     Locations
   }
