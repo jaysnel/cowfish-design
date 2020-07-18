@@ -5,7 +5,10 @@
       <!-- <div>
         <img class="cowfish-logo" src="./assets/images/cowfishlogo.png" alt="">
       </div> -->
-      <Slide right id="mobile-nav">
+      <Slide id="mobile-nav"
+      right
+      :closeOnNavigation="true"
+      >
         <router-link to="/">Home</router-link>
         <router-link to="/menus">Menu</router-link>
         <router-link to="/catering">Catering</router-link>
@@ -51,6 +54,7 @@ export default {
   }
 }
 </script>
+
 <style>
 .mobile-nav-section-with-logo {
   display: grid;
