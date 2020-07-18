@@ -117,7 +117,7 @@ export default {
 }
 
 .bm-burger-bars {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .bm-burger-button {
