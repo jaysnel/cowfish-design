@@ -58,7 +58,7 @@ export default {
   background: #000;
 }
 
-.mobile-nav-section-with-logo img {
+.mobile-nav-section-with-logo > div {
   max-width: 100%;
 }
 
@@ -111,7 +111,7 @@ export default {
 }
 
 .bm-burger-bars {
-  background: #fff;
+  background-color: #fff;
 }
 
 /*Back to top button*/
