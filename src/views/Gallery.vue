@@ -2,7 +2,7 @@
   <div class="paper-bg gallery-body">
       <h1>Gallery</h1>
 
-      <!-- <b-carousel
+      <b-carousel
         id="carousel-fade"
         :interval="6000"
         controls
@@ -42,7 +42,7 @@
         img-src="../assets/images/gallery/gallery6.jpg"
         ></b-carousel-slide>
 
-    </b-carousel> -->
+    </b-carousel>
     <br>
     <div class="gallery-image-individual">
         <img src="../assets/images/gallery/gallery1.jpg" alt="">

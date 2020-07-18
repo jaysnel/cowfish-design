@@ -1,19 +1,17 @@
 <template>
   <div class="paper-bg text-left">
       <div class="contact-body">
-          <h1 class="text-center">Give Us A Shout</h1>
+          <h1 class="text-center">Give Us A Shout!</h1>
           <b-form>
       <b-form-group
         id="contact-name-field"
         label="Name"
         label-for="Name"
-        description="Enter ame"
       >
         <b-form-input
           id="name-field"
           type="text"
           required
-          placeholder="Enter Name"
         ></b-form-input>
       </b-form-group>
 
@@ -22,7 +20,6 @@
           type="email"
           id="email-field"
           required
-          placeholder="Enter email"
         ></b-form-input>
       </b-form-group>
 
@@ -52,6 +49,7 @@
 
       <b-button type="submit" variant="primary">Submit</b-button>
     </b-form>
+    <br>
       </div>
   </div>
 </template>

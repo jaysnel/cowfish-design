@@ -30,7 +30,9 @@ export default {
     },
     methods: {
         goToMenu: function(city) {
-            console.log(city);
+            if(city == 'charlotte') window.open('https://thecowfish.com/The_Cowfish_menu_Charlotte.pdf', '_blank');
+            if(city == 'raleigh') window.open('https://thecowfish.com/The_Cowfish_menu_Raleigh.pdf', '_blank');
+            if(city == 'orlando') window.open('https://www.universalorlando.com/web/en/us/things-to-do/dining/the-cowfish', '_blank');
         }
     }
 }

@@ -45,36 +45,30 @@
                 Tel: 704-365-1922
                 </p>
                 <div class="social-icons-location">
-                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/TheCowfish" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/the_cowfish" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/thecowfishsbb/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
-
-                <div class="location-items">
+                <div>
+                    <i class="far fa-clock"></i> <b>Hours</b>
+                    <br>
+                    Everyday: 11am-9pm
+                </div>
+                <br>
+                <div class="location-items-info">
                     <div>
-                        
                         <p>
-                        <i class="fas fa-hamburger"></i> <b>View Charlotte Menu</b>
+                        <a href="https://thecowfish.com/The_Cowfish_menu_Charlotte.pdf" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-hamburger"></i> <b>View Menu</b>
+                        </a>
                         <br/>
-                        Check out our Charlotte menu <a href="">here.</a> It’s a mouthful.
+                        Check out our Charlotte menu.<br>It’s a mouthful.
                         </p>
                     </div>
-
+                
                     <div>
-                        
                         <p>
-                        <i class="far fa-clock"></i> <b>Hours to Devour</b>
-                        <br/>
-                        Sunday-Thursday from 11am-9pm
-                        <br/>
-                        Friday & Saturday from 11am-9pm
-                        </p>
-                    </div>
-
-                    <div>
-                        
-                        <p>
-                        <i class="far fa-envelope"></i> <b>Are You a Cowfish?</b>
+                        <i class="far fa-envelope"></i> <b>Apply</b>
                         <br/>
                         Come work with our Charlotte team! Apply <a href="">here.</a>
                         </p>
@@ -101,36 +95,30 @@
                 Tel: 919-784-0400
                 </p>
                 <div class="social-icons-location">
-                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/TheCowfish" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/the_cowfish" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/thecowfishsbb/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
-
-                <div class="location-items">
+                <div>
+                    <i class="far fa-clock"></i> <b>Hours</b>
+                    <br>
+                    Everyday: 11am-9pm
+                </div>
+                <br>
+                <div class="location-items-info">
                     <div>
-                        
                         <p>
-                        <i class="fas fa-hamburger"></i> <b>View Raleigh Menu</b>
+                        <a href="https://thecowfish.com/The_Cowfish_menu_Raleigh.pdf" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-hamburger"></i> <b>View Menu</b>
+                        </a>
                         <br/>
-                        Check out our Charlotte menu <a href="">here.</a> It’s a mouthful.
+                        Check out our Raleigh menu.<br>It’s a mouthful.
                         </p>
                     </div>
 
                     <div>
-                        
                         <p>
-                        <i class="far fa-clock"></i> <b>Hours to Devour</b>
-                        <br/>
-                        Sunday-Thursday from 11am-9pm
-                        <br/>
-                        Friday & Saturday from 11am-9pm
-                        </p>
-                    </div>
-
-                    <div>
-                        
-                        <p>
-                        <i class="far fa-envelope"></i> <b>Are You a Cowfish?</b>
+                        <i class="far fa-envelope"></i> <b>Apply</b>
                         <br/>
                         Come work with our Charlotte team! Apply <a href="">here.</a>
                         </p>
@@ -155,9 +143,9 @@
                 Tel: 407-224-3663
                 </p>
                 <div class="social-icons-location">
-                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/TheCowfish" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/the_cowfish" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/thecowfishsbb/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
 
                 <div class="location-items">
@@ -226,6 +214,11 @@ export default {
         align-items: center;
         width: 100%;
         margin: auto;
+    }
+
+    .location-items-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 </style>

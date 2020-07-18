@@ -34,6 +34,7 @@
                         <li>
                             100% all-natural <b>(not fake)</b> chicken, Angus ground beef, turkey, lamb, or bison. Raised humanely--never spanked, only put in time-out.
                         </li>
+                        <hr>
                         <li>
                             Never, ever given antibiotics or hormones.
                         </li>
@@ -51,6 +52,7 @@
                         <li>
                             Sustainable, antibiotic-free and non-GMO. ‘Cause that’s just how we roll.
                         </li>
+                        <hr>
                         <li>
                             Bigeye tuna is rod & reel caught in the US and Canada. Reely. No foolin’.
                         </li>
@@ -68,6 +70,7 @@
                         <li>
                             Chemical-free—passes the drug test every time.
                         </li>
+                        <hr>
                         <li>
                             From the good ol’ U.S. of A. 
                         </li>
@@ -85,6 +88,7 @@
                         <li>
                             Locally sourced whenever possible, ‘cause we know how to pick ‘em.
                         </li>
+                        <hr>
                         <li>
                             WARNING: Salads may exceed the size of your head.
                         </li>
@@ -93,14 +97,14 @@
             </div>
         </div>
 
-        <div class="food-gallery">
+        <!-- <div class="food-gallery">
             <img src="../assets/menus/food1.png">
             <img src="../assets/menus/food2.png">
             <img src="../assets/menus/food3.png">
             <img src="../assets/menus/food4.png">
             <img src="../assets/menus/food5.png">
             <img src="../assets/menus/food6.png">
-        </div>
+        </div> -->
   </div>
 </template>
 
@@ -111,12 +115,19 @@ export default {
 </script>
 
 <style scoped>
+hr {
+    border-top: 2px solid var(--main-red);
+    opacity: .5;
+    width: 200px;
+}
+
 .menu-content {
     padding: 15px;
 }
 
 .menu-buttons .btn {
     margin: 10px;
+    margin-bottom: 35px;
 }
 
 .food-item {
@@ -125,6 +136,14 @@ export default {
 
     margin: 10px;
     padding: 10px;
+}
+
+.food-item ul li {
+    list-style-type: none;
+}
+
+.food-information {
+    margin-bottom: 30px;
 }
 
 .food-information div img {
@@ -151,7 +170,7 @@ export default {
 
     .food-information {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .food-gallery {
