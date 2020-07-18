@@ -10,7 +10,7 @@
         <!-- end hero image section -->
         <div class="content-section-black">
             <p>
-              <span class="content-header">Trial?</span>
+              <span class="content-header">Welcome to Crazy Good!</span>
               <br/>
               A kaleidoscope of ingredients that come together to craft one-of-a-kind fresh sushi and burger dishes to die for. Then they collide to form a crazy but delicious new food called “burgushi”. And a lovable, responsive wait staff, original pop art, and larger-than-life fish tanks – <b>with actual cowfish</b> — top it all off to make The Cowfish a crazy good experience.
             </p>
