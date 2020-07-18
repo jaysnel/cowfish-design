@@ -56,6 +56,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background: #000;
+  max-width: 100%;
 }
 
 .mobile-nav-section-with-logo > div img {
@@ -73,6 +74,7 @@ export default {
 
 #nav,
 #mobile-nav {
+  max-width: 100%;
   padding: 30px;
   background: #000;
 }
