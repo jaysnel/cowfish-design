@@ -71,4 +71,10 @@ export default {
   .hero-content .cowfish-logo {
     max-width: 100%;
   }
+  
+  @media(max-width: 768px) {
+    .home {
+      margin: 0;
+    }
+  }
 </style>
