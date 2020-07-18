@@ -116,6 +116,10 @@ export default {
   background-color: #fff;
 }
 
+.bm-burger-button {
+  top: 18px;
+}
+
 /*Back to top button*/
 /* #floatingButton {
   display: inline-block;
@@ -170,6 +174,12 @@ export default {
 
   #nav {
     display: none;
+  }
+
+  #mobile-nav {
+    height: 85px;
+    padding-top: 0;
+    margin-top: 0;
   }
 }
 
