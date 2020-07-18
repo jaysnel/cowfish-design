@@ -58,6 +58,10 @@ export default {
   background: #000;
 }
 
+.mobile-nav-section-with-logo img {
+  max-width: 100%;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
