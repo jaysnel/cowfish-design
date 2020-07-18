@@ -2,9 +2,9 @@
   <div id="app">
     
     <div class="mobile-nav-section-with-logo">
-      <div>
+      <!-- <div>
         <img class="cowfish-logo" src="./assets/images/cowfishlogo.png" alt="">
-      </div>
+      </div> -->
       <Slide right id="mobile-nav">
         <router-link to="/">Home</router-link>
         <router-link to="/menus">Menu</router-link>
@@ -55,7 +55,8 @@ export default {
 .mobile-nav-section-with-logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background: #000;
+  background: transparent;
+  margin-bottom: -85px;
   max-width: 100%;
 }
 
@@ -77,6 +78,9 @@ export default {
   max-width: 100%;
   padding: 30px;
   background: #000;
+}
+#mobile-nav {
+  background: transparent;
 }
 
 #nav a,
@@ -117,7 +121,7 @@ export default {
 }
 
 .bm-burger-button {
-  top: 18px;
+  top: 25px;
 }
 
 /*Back to top button*/
