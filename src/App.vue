@@ -162,6 +162,10 @@ export default {
 }
 
 @media(max-width: 768px) {
+  #app {
+    padding: 0;
+  }
+
   #nav {
     display: none;
   }
