@@ -1,7 +1,7 @@
 <template class="paper-bg">
   <div id="app">
     
-    <div class="mobile-nav-section-with-logo">
+    <div class="mobile-nav-section-with-logo paper-bg">
       <!-- <div>
         <img class="cowfish-logo" src="./assets/images/cowfishlogo.png" alt="">
       </div> -->
@@ -60,7 +60,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background: transparent;
-  margin-bottom: -85px;
+  
   max-width: 100%;
 }
 

@@ -1,7 +1,9 @@
 <template>
   <div class="paper-bg">
-      <h1>News</h1>
-      <h2>For media inquiries, contact Jen Brantley at <a class="email-link" href="mailto:jennifer.brantley@thecowfish.com">jennifer.brantley@thecowfish.com</a>.</h2>
+      <div class="news-header-section">
+          <h1>News</h1>
+        <h2>For media inquiries, contact Jen Brantley at <a class="email-link" href="mailto:jennifer.brantley@thecowfish.com">jennifer.brantley@thecowfish.com.</a></h2>
+      </div>
         <br>
       <div class="blogs-section">
           <div>
@@ -37,6 +39,11 @@ h2 {
     font-size: 1.5rem;
 }
 
+.news-header-section {
+    max-width: 100%;
+    width: 100%;
+}
+
 .blogs-section {
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -53,5 +60,20 @@ h2 {
 
 .blogs-section h3 {
     font-size: 1.5rem;
+}
+
+@media(max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .paper-bg * {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .blogs-section > div {
+        width: 90%;
+    }
 }
 </style>

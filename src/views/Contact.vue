@@ -67,4 +67,10 @@ export default {
         margin: auto;
     }
 }
+
+@media(max-width: 768px) {
+    .contact-body {
+        padding: 10px;
+    }
+}
 </style>

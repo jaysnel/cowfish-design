@@ -76,5 +76,9 @@ export default {
     .home {
       margin: 0;
     }
+
+    #hero-image {
+      margin-top: -85px;
+    }
   }
 </style>
