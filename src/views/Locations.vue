@@ -163,26 +163,9 @@ export default {
 </script>
 
 <style scoped>
-.paper-bg {
-    height: 100vh;
-}
 
-.dl {
-  display: grid;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: url('../assets/images/locations/locationsDL.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.dl h1 {
-  color: #fff;
-  font-size: 5rem;
-  margin-top: -15%;
+.locations {
+    height: 100%;
 }
 
 #location-image-btn {
@@ -203,7 +186,21 @@ export default {
     margin-bottom: 5px;
 }
 
+@media(max-width: 768px) {
+    .paper-bg {
+        height: 100%;
+    }
+
+    .location-items {
+        margin-bottom: 25px;
+    }
+}
+
 @media (min-width: 768px) {
+    .paper-bg {
+        height: 100vh;
+    }
+
     .location-items {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

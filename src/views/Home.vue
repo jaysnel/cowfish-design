@@ -47,9 +47,10 @@ export default {
 </script>
 
 <style scoped>
-  .home {
-    margin: 0 5px;
+  #mobile-nav .bm-burger-button .bm-burger-bars {
+      background-color: #fff !important;
   }
+
 
   #hero-image {
     background: url("../assets/images/home/cowfishDLExtra2.jpg");

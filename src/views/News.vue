@@ -1,8 +1,8 @@
 <template>
   <div class="paper-bg">
       <div class="news-header-section">
-          <h1>News</h1>
-        <h2>For media inquiries, contact Jen Brantley at <a class="email-link" href="mailto:jennifer.brantley@thecowfish.com">jennifer.brantley@thecowfish.com.</a></h2>
+        <h1>News</h1>
+        <h3>For media inquiries, contact Jen Brantley at <a class="email-link" href="mailto:jennifer.brantley@thecowfish.com">jennifer.brantley@thecowfish.com.</a></h3>
       </div>
         <br>
       <div class="blogs-section">
@@ -35,8 +35,8 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-    font-size: 1.5rem;
+h3 {
+    font-size: 1.3rem;
 }
 
 .news-header-section {

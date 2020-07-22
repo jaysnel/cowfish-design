@@ -28,17 +28,17 @@
                 <div>
                     <img src="../assets/menus/burger.png" alt="">
                 </div>
-                <div>
+                <div class="text-center">
                     <h2>Burgers + Chicken</h2>
-                    <ul>
-                        <li>
+                    <span>
+                        <p>
                             100% all-natural <b>(not fake)</b> chicken, Angus ground beef, turkey, lamb, or bison. Raised humanely--never spanked, only put in time-out.
-                        </li>
+                        </p>
                         <hr>
-                        <li>
+                        <p>
                             Never, ever given antibiotics or hormones.
-                        </li>
-                    </ul>
+                        </p>
+                    </span>
                 </div>
             </div>
 
@@ -48,15 +48,15 @@
                 </div>
                 <div>
                     <h2>Sushi & Fish</h2>
-                    <ul>
-                        <li>
+                    <span>
+                        <p>
                             Sustainable, antibiotic-free and non-GMO. ‘Cause that’s just how we roll.
-                        </li>
+                        </p>
                         <hr>
-                        <li>
+                        <p>
                             Bigeye tuna is rod & reel caught in the US and Canada. Reely. No foolin’.
-                        </li>
-                    </ul>
+                        </p>
+                    </span>
                 </div>
             </div>
 
@@ -66,15 +66,15 @@
                 </div>
                 <div>
                     <h2>Shellfish</h2>
-                    <ul>
-                        <li>
+                    <span>
+                        <p>
                             Chemical-free—passes the drug test every time.
-                        </li>
+                        </p>
                         <hr>
-                        <li>
+                        <p>
                             From the good ol’ U.S. of A. 
-                        </li>
-                    </ul>
+                        </p>
+                    </span>
                 </div>
             </div>
 
@@ -84,15 +84,15 @@
                 </div>
                 <div>
                     <h2>Salads & Produce</h2>
-                    <ul>
-                        <li>
+                    <span>
+                        <p>
                             Locally sourced whenever possible, ‘cause we know how to pick ‘em.
-                        </li>
+                        </p>
                         <hr>
-                        <li>
+                        <p>
                             WARNING: Salads may exceed the size of your head.
-                        </li>
-                    </ul>
+                        </p>
+                    </span>
                 </div>
             </div>
         </div>
@@ -127,10 +127,6 @@ hr {
 
     margin: 10px;
     padding: 10px;
-}
-
-.food-item ul li {
-    list-style-type: none;
 }
 
 .food-information {

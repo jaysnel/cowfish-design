@@ -173,6 +173,7 @@ export default {
   padding: 5px;
   font-size: 1.2rem;
   border-radius: 10px;
+  z-index: 99;
 }
 
 @media(max-width: 768px) {
