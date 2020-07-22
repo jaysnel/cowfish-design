@@ -65,7 +65,7 @@ export default {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
-      height: 80vh;
+      height: 90vh;
   }
 
   .feature-section-2 {
